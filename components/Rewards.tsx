@@ -2,11 +2,15 @@ import { Image, StyleSheet, Text, View } from "react-native";
 
 import "../global.css";
 
-export default function EnvironmentImpact() {
+export default function Rewards() {
     return (
         <View className="flex flex-col px-4 pt-6 bg-white">
-            <Text className="uppercase font-bebas font-bold text-2xl text-gray-800">
-                ENVIRONMENT IMPACT
+            <Text className="uppercase font-bebas font-bold text-2xl text-gray-800 mb-6">
+                REWARDS
+            </Text>
+
+            <Text className="font-bebas text-xl text-gray-400">
+            Your savings
             </Text>
 
             <View className="flex-row justify-between items-center">
