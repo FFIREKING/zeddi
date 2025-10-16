@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Bebas Neue as default font */
+@layer base {
+  * {
+    font-family: 'BebasNeue_400Regular', system-ui, -apple-system, sans-serif;
+  }
+}
